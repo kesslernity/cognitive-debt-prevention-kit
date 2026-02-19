@@ -1,10 +1,9 @@
-# 🧠 Cognitive Debt — Developer Checkpoint Card
+# Cognitive Debt — Developer Checkpoint Card
 # Run this BEFORE accepting any AI-generated block of code.
-# Source: https://www.talk-nerdy-to-me.com/blog/cognitive-debt-ai-coding-hidden-cost
 
 ---
 
-## ⚡ The 60-Second Pre-Accept Check
+## The 60-Second Pre-Accept Check
 
 Answer these three questions before hitting accept on AI output.
 **If any answer is "no" — stop. Understand first, then accept.**
@@ -29,7 +28,7 @@ Answer these three questions before hitting accept on AI output.
 
 ---
 
-## 🚦 Decision Tree
+## Decision Tree
 
 ```
 All 3 = YES?
@@ -44,7 +43,7 @@ Any = NO?
 
 ---
 
-## 🔬 Code Quality Sniff Test
+## Code Quality Sniff Test
 
 Run these eyes-on checks before submitting for review:
 
@@ -71,7 +70,7 @@ Run these eyes-on checks before submitting for review:
 
 ---
 
-## 🧭 Pairing Pattern (For AI-Assisted Sessions)
+## Pairing Pattern (For AI-Assisted Sessions)
 
 Use this workflow when coding with AI agents:
 
@@ -94,7 +93,7 @@ YOU verify:         → Run the tests YOU defined
 
 ---
 
-## 📊 Personal Cognitive Debt Tracker
+## Personal Cognitive Debt Tracker
 
 Use this weekly to spot drift before it compounds:
 
@@ -109,7 +108,7 @@ Use this weekly to spot drift before it compounds:
 
 ---
 
-## 🆘 If You're Already In Debt
+## If You're Already In Debt
 
 Signs you've accumulated cognitive debt:
 - You're afraid to touch certain files because you don't know what they do

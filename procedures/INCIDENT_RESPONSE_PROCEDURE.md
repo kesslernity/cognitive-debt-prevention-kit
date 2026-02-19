@@ -1,6 +1,5 @@
-# 🚨 Incident Response Procedure — AI-Generated Code
+# Incident Response Procedure — AI-Generated Code
 # Version: 1.0 | Review cycle: After every relevant incident
-# Source: https://www.talk-nerdy-to-me.com/blog/cognitive-debt-ai-coding-hidden-cost
 
 ---
 
@@ -54,7 +53,7 @@ Priority order:
 3. **Route around** the failure at the infrastructure level if revert is risky
 4. **Patch** only once someone who understands the code is on the call
 
-> ⚠️ **Critical:** Do not use AI to generate a hotfix for AI-generated code you don't understand. This is how cognitive debt compounds into a cascade.
+> **Critical:** Do not use AI to generate a hotfix for AI-generated code you don't understand. This is how cognitive debt compounds into a cascade.
 
 ---
 

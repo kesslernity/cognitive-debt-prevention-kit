@@ -1,10 +1,9 @@
 # MEMORY.md — AI Context & Architectural Decisions
 # Keep this file updated. Writing it forces you to understand why things work the way they do.
-# Source: https://www.talk-nerdy-to-me.com/blog/cognitive-debt-ai-coding-hidden-cost
 
 ---
 
-## 🏗️ Project Overview
+## Project Overview
 
 **Project name:** [your-project]
 **Purpose:** [One sentence on what this system does]
@@ -13,9 +12,10 @@
 
 ---
 
-## 📐 Architecture Decisions
+## Architecture Decisions
 
 > Record the WHY, not just the WHAT. AI can read code — it can't read your reasoning.
+> Examples below use TypeScript/Node.js conventions — adapt to your stack.
 
 | Decision | Choice Made | Why (not an alternative) |
 |----------|-------------|--------------------------|
@@ -27,7 +27,7 @@
 
 ---
 
-## 🔐 Security Constraints (AI must respect these)
+## Security Constraints (AI must respect these)
 
 - **Never** store sensitive data in localStorage or sessionStorage
 - **Never** log PII, tokens, or credentials — even in dev/debug paths
@@ -37,7 +37,7 @@
 
 ---
 
-## 🗄️ Data Layer
+## Data Layer
 
 **Database:** [PostgreSQL / MySQL / MongoDB / etc.]
 **ORM / Query builder:** [Prisma / TypeORM / SQLAlchemy / etc.]
@@ -51,7 +51,7 @@
 
 ---
 
-## 🧪 Testing Conventions
+## Testing Conventions
 
 | Test type | Tool | Location | Notes |
 |-----------|------|----------|-------|
@@ -63,7 +63,7 @@
 
 ---
 
-## 🚀 Deployment & Infrastructure
+## Deployment & Infrastructure
 
 - **Deploy strategy:** [Blue-green / Rolling / Canary]
 - **CI/CD:** [GitHub Actions / Azure DevOps / etc.] — pipeline at `[path]`
@@ -73,7 +73,7 @@
 
 ---
 
-## ⚠️ AI-Free Zones (Human-written code only)
+## AI-Free Zones (Human-written code only)
 
 The following paths are too consequential for cognitive debt. AI may draft; a human must own and rewrite.
 
@@ -85,7 +85,7 @@ The following paths are too consequential for cognitive debt. AI may draft; a hu
 
 ---
 
-## 📎 Naming Conventions
+## Naming Conventions
 
 | Context | Convention | Example |
 |---------|------------|---------|
@@ -98,7 +98,7 @@ The following paths are too consequential for cognitive debt. AI may draft; a hu
 
 ---
 
-## 🧠 Key Business Rules AI Must Know
+## Key Business Rules AI Must Know
 
 > Things that are non-obvious and would cause bugs if ignored.
 
@@ -109,7 +109,7 @@ The following paths are too consequential for cognitive debt. AI may draft; a hu
 
 ---
 
-## 📝 Changelog
+## Changelog
 
 | Date | Author | Change |
 |------|--------|--------|

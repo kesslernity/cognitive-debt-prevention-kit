@@ -1,6 +1,5 @@
-# 🔍 Code Review Guardrails — AI-Generated Code
+# Code Review Guardrails — AI-Generated Code
 # Version: 1.0 | Review cycle: Quarterly
-# Source: https://www.talk-nerdy-to-me.com/blog/cognitive-debt-ai-coding-hidden-cost
 
 ---
 

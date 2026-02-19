@@ -1,6 +1,5 @@
-# ✅ Definition of Done — AI-Assisted Development
+# Definition of Done — AI-Assisted Development
 # Version: 1.0 | Review cycle: Quarterly
-# Source: https://www.talk-nerdy-to-me.com/blog/cognitive-debt-ai-coding-hidden-cost
 
 ---
 
@@ -111,6 +110,8 @@ Apply everything in Tier 1 and 2, plus:
 ---
 
 ## Sprint-Level DoD
+
+See also: `templates/TEAM_PLAYBOOK.md` for the full quarterly audit and sprint ceremony system.
 
 Before a sprint is considered complete:
 

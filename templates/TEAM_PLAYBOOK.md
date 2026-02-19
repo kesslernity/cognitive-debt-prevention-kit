@@ -1,8 +1,6 @@
-# 📘 Cognitive Debt — Team Playbook for Engineering Leads
-# Source: https://www.talk-nerdy-to-me.com/blog/cognitive-debt-ai-coding-hidden-cost
+# Cognitive Debt — Team Playbook for Engineering Leads
 
 > "Cognitive debt compounds silently. By the time you notice the interest payments, the principal is already unmanageable."
-> — Martin Fowler (via Talk Nerdy to Me)
 
 ---
 
@@ -14,7 +12,7 @@ This playbook gives you the ceremonies, metrics, and gates to make cognitive deb
 
 ---
 
-## 📐 The Four Team Practices
+## The Four Team Practices
 
 ### 1. Establish Your AI-Free Zones (Day 1)
 
@@ -115,14 +113,14 @@ When reviewing a PR that contains AI-generated code:
 
 ---
 
-## 📊 Quarterly Cognitive Debt Audit
+## Quarterly Cognitive Debt Audit
 
 Run this every quarter. Takes ~2 hours for a team of 5.
 
 **Step 1: Identify high-risk files**
 ```bash
 # Files with highest churn in the last 90 days
-git log --since="90 days ago" --diff-filter=M --name-only --format="" | sort | uniq -c | sort -rn | head -20
+git log --since="90 days ago" --diff-filter=M --name-only --pretty=format:"" | sort | uniq -c | sort -rn | head -20
 ```
 
 **Step 2: Cross-reference with AI origin**
@@ -160,7 +158,7 @@ For each flagged file, answer as a team:
 
 ---
 
-## 🚨 Incident Postmortem Addition
+## Incident Postmortem Addition
 
 Add this section to your postmortem template for every production incident:
 
@@ -180,7 +178,7 @@ Add this section to your postmortem template for every production incident:
 
 ---
 
-## 🎓 Onboarding Addition
+## Onboarding Addition
 
 When onboarding new engineers into AI-assisted codebases:
 
@@ -204,7 +202,7 @@ We use AI coding tools. Here's how we manage the risks:
 
 ---
 
-## 📎 Quick Reference
+## Quick Reference
 
 | Tool | Use For |
 |------|---------|

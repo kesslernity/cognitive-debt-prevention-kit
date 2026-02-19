@@ -1,6 +1,5 @@
-# 📜 AI Coding Tool Usage Guidelines
+# AI Coding Tool Usage Guidelines
 # Version: 1.0 | Review cycle: Quarterly
-# Source: https://www.talk-nerdy-to-me.com/blog/cognitive-debt-ai-coding-hidden-cost
 
 ---
 
@@ -43,7 +42,7 @@ Every engineer must apply the **Active Pattern** when working with AI tools.
 
 ## 2. Permitted Use Cases
 
-### ✅ High-value, lower-risk uses
+### High-value, lower-risk uses
 - Generating boilerplate (CRUD scaffolding, repetitive patterns you already understand)
 - Writing test bodies for test cases you have defined
 - Refactoring code you already understand (style, naming, structure)
@@ -51,13 +50,13 @@ Every engineer must apply the **Active Pattern** when working with AI tools.
 - Explaining unfamiliar code (use AI to learn, not to ship)
 - Drafting implementation from a design you have already reasoned through
 
-### ⚠️ Permitted with mandatory comprehension review
+### Permitted with mandatory comprehension review
 - Algorithms or logic you didn't design yourself
 - Any code touching a new domain (use AI to draft, then read deeply)
 - Code that interacts with external APIs or services
 - Any code >50 lines generated in a single output
 
-### 🚫 Not permitted
+### Not permitted
 - AI-generated code in **AI-Free Zones** (see MEMORY.md) without lead review and sign-off
 - Generating and merging code you explicitly cannot explain
 - Using AI to generate security-sensitive logic (auth, encryption, input validation) without expert review

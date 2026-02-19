@@ -1,7 +1,6 @@
-# 🚀 AI Tool Onboarding Procedure
+# AI Tool Onboarding Procedure
 # For: New team members + any engineer adopting a new AI coding tool
 # Version: 1.0 | Review cycle: Quarterly
-# Source: https://www.talk-nerdy-to-me.com/blog/cognitive-debt-ai-coding-hidden-cost
 
 ---
 

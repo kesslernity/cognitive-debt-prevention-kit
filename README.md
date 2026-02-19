@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 Cognitive Debt Prevention Kit
+# Cognitive Debt Prevention Kit
 
 **By [Kesslernity](https://kesslernity.com) — Standardizing the 2026 AI Workforce**
 
@@ -10,7 +10,7 @@
 
 *You ship faster with AI. You understand less. That gap has a name — and this kit fixes it.*
 
-[**→ Read the full article**](https://www.talk-nerdy-to-me.com/blog/cognitive-debt-ai-coding-hidden-cost) · [**→ Explore Kesslernity**](https://kesslernity.com) · [**→ Free Prompt Library**](https://nerdychefs.ai)
+[**Read the full article**](https://www.talk-nerdy-to-me.com/blog/cognitive-debt-ai-coding-hidden-cost) · [**Explore Kesslernity**](https://kesslernity.com)
 
 </div>
 
@@ -39,8 +39,8 @@ cognitive-debt-prevention-kit/
 │
 ├── templates/                         Core files for every repo
 │   ├── MEMORY.md                      Living AI context & architecture decisions
-│   ├── templates/COGNITIVE_DEBT_CHECKLIST.md    Developer's pre-accept checkpoint card
-│   └── templates/TEAM_PLAYBOOK.md              Sprint ceremonies & quarterly audit system
+│   ├── COGNITIVE_DEBT_CHECKLIST.md    Developer's pre-accept checkpoint card
+│   └── TEAM_PLAYBOOK.md              Sprint ceremonies & quarterly audit system
 │
 ├── .github/
 │   └── PULL_REQUEST_TEMPLATE.md       PR comprehension gate with AI declaration
@@ -76,7 +76,7 @@ cognitive-debt-prevention-kit/
 ```bash
 # Clone or fork this repo, then copy what you need:
 cp templates/MEMORY.md /your-project/MEMORY.md
-cp templates/templates/COGNITIVE_DEBT_CHECKLIST.md /your-project/templates/COGNITIVE_DEBT_CHECKLIST.md
+cp templates/COGNITIVE_DEBT_CHECKLIST.md /your-project/templates/COGNITIVE_DEBT_CHECKLIST.md
 cp .github/PULL_REQUEST_TEMPLATE.md /your-project/.github/PULL_REQUEST_TEMPLATE.md
 ```
 
@@ -109,7 +109,7 @@ This kit operationalizes the five patterns from the [original research](https://
 |---|---------|----------|
 | 1 | Maintain a `templates/MEMORY.md` — living architecture context for you and your AI | `templates/MEMORY.md` |
 | 2 | Explain Before Merge — comprehension gate in every PR | `.github/PULL_REQUEST_TEMPLATE.md` |
-| 3 | Comprehension Checkpoints — three questions before you accept AI output | `templates/templates/COGNITIVE_DEBT_CHECKLIST.md` |
+| 3 | Comprehension Checkpoints — three questions before you accept AI output | `templates/COGNITIVE_DEBT_CHECKLIST.md` |
 | 4 | Pair with Agents, Don't Delegate — you steer, AI fills | `guidelines/AI_USAGE_GUIDELINES.md` |
 | 5 | Shrink the Blast Radius — <200 lines, 1 concern, 100% coverage on AI paths | `guidelines/DEFINITION_OF_DONE.md` |
 
@@ -164,17 +164,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. This kit improves when te
 
 ## About Kesslernity
 
-[Kesslernity](https://kesslernity.com) builds AI infrastructure for enterprises — private prompt libraries, training programs, and adoption systems that make AI accessible to entire workforces without requiring everyone to become an AI specialist.
+[Kesslernity](https://kesslernity.com) builds AI infrastructure for enterprises — prompt libraries, training programs, and adoption systems that prevent teams from moving fast and understanding nothing.
 
-This kit is open-source and free to use. If your team needs broader AI infrastructure — prompt libraries, workforce AI training, or AI adoption consulting — that's what we do.
-
-**Ecosystem:**
-- [kesslernity.com](https://kesslernity.com) — Enterprise AI libraries & managed services
-- [nerdychefs.ai](https://nerdychefs.ai) — 1,400+ free prompts, no signup required
-- [trainings.kesslernity.com](https://trainings.kesslernity.com) — Centaur Program: train your internal AI architects
-- [Talk Nerdy to Me](https://www.talk-nerdy-to-me.com) — Technical content on cloud, FinOps, and AI
-
-📍 Abu Dhabi, UAE
+This kit is open-source and free to use under the MIT license.
 
 ---
 
@@ -188,6 +180,6 @@ MIT — free to use, fork, adapt, and distribute. Attribution appreciated but no
 
 *Never ship code you can't explain.*
 
-**[kesslernity.com](https://kesslernity.com)** · **[Book a Strategy Call](https://kesslernity.com/demo)**
+**[kesslernity.com](https://kesslernity.com)**
 
 </div>
